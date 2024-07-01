@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConnectX</title>
+    <link rel="icon" href="img/robot.gif" type="image/gif">    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="light-mode">
+    <h1>ConnectX: ChatBoard</h1>
+    <div id="button-container">
+        <button id="theme-toggle">Switch to Dark Mode</button>
+        <button id="logout-button">Logout</button>
+    </div>
+    <div id="chat-container">
+        <div id="message-container"></div>
+        <form id="message-form">
+            <input type="text" id="message-input" placeholder="Type a message" required>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/chat.js"></script>
+    <script src="js/theme-toggle.js"></script>
+    <script src="js/logout.js"></script>
+</body>
+</html>
