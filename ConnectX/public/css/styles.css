@@ -1,0 +1,195 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 5%;
+    transition: background-color 0.3s ease;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+}
+
+#button-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+#theme-toggle,
+#logout-button,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button {
+    font-size: 14px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button {
+    border: 1px solid #ccc;
+}
+
+#nav-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav-button {
+    font-size: 16px;
+    padding: 10px 70px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dark-mode {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+    .dark-mode h1 {
+        color: #fff;
+    }
+
+    .dark-mode input[type="text"],
+    .dark-mode input[type="email"],
+    .dark-mode input[type="password"],
+    .dark-mode button {
+        background-color: #333;
+        color: #fff;
+    }
+
+.light-mode {
+    background-color: #fff;
+    color: #333;
+}
+
+    .light-mode h1 {
+        color: #333;
+    }
+
+    .light-mode input[type="text"],
+    .light-mode input[type="email"],
+    .light-mode input[type="password"],
+    .light-mode button {
+        background-color: #f2f2f2;
+        color: #333;
+    }
+
+#chat-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    color: #333;
+}
+
+.dark-mode #chat-container {
+    background-color: #333;
+    color: #fff;
+}
+
+#message-container {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#message-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#message-input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+#logout-button {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+#login-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+    #login-form p {
+        text-align: center;
+    }
+
+    #login-form input[type="text"],
+    #login-form input[type="email"],
+    #login-form input[type="password"],
+    #login-form button {
+        display: block;
+        margin: 20px auto;
+    }
+
+    #login-form button {
+        padding: 10px 40px;
+    }
+
+#register-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+    #register-form p {
+        text-align: center;
+    }
+
+    #register-form input[type="text"],
+    #register-form input[type="email"],
+    #register-form input[type="password"],
+    #register-form button {
+        display: block;
+        margin: 20px auto;
+    }
+
+    #register-form button {
+        padding: 10px 40px;
+    }
